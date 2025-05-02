@@ -1,0 +1,43 @@
+{
+  "key": "BlockTypeChoiceDropDownList",
+  "displayName": "BlockType ChoiceDropDownList",
+  "description": "BlockType ChoiceDropDownList",
+  "baseType": "component",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "ChoiceDropDownList": {
+      "type": "string",
+      "format": "selectOne",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {},
+      "enum": {
+        "values": [
+          {
+            "displayName": "One",
+            "value": "1"
+          },
+          {
+            "displayName": "Two",
+            "value": "2"
+          },
+          {
+            "displayName": "Three",
+            "value": "3"
+          },
+          {
+            "displayName": "Four",
+            "value": "4"
+          }
+        ]
+      }
+    }
+  }
+}

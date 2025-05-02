@@ -1,0 +1,3 @@
+fragment BlockTypeListTextXHtmlStringData on BlockTypeListTextXHtmlString {
+  ListTextXHtmlString{ json, html }
+}

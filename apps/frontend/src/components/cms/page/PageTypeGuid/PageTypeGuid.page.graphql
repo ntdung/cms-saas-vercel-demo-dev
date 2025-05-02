@@ -1,0 +1,3 @@
+fragment PageTypeGuidData on PageTypeGuid {
+  empty: _metadata { key }
+}

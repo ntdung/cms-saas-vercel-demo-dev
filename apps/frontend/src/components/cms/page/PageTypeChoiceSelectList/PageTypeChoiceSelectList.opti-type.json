@@ -1,0 +1,46 @@
+{
+  "key": "PageTypeChoiceSelectList",
+  "displayName": "PageType ChoiceSelectList",
+  "description": "PageType ChoiceSelectList",
+  "baseType": "page",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "ChoiceSelectList": {
+      "type": "array",
+      "format": "selectMany",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {},
+      "items": {
+        "type": "string",
+        "enum": {
+          "values": [
+            {
+              "displayName": "One",
+              "value": "1"
+            },
+            {
+              "displayName": "Two",
+              "value": "2"
+            },
+            {
+              "displayName": "Three",
+              "value": "3"
+            },
+            {
+              "displayName": "Four",
+              "value": "4"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

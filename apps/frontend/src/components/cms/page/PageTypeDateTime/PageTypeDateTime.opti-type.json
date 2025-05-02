@@ -1,0 +1,22 @@
+{
+  "key": "PageTypeDateTime",
+  "displayName": "PageType DateTime",
+  "description": "PageType DateTime",
+  "baseType": "page",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "DateTime": {
+      "type": "dateTime",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

@@ -1,0 +1,6 @@
+fragment ExpTypeContentContentAreaItemData on ExpTypeContentContentAreaItem {
+  ContentContentAreaItem {
+    ...BlockData
+  }
+  ...ExperienceData
+}

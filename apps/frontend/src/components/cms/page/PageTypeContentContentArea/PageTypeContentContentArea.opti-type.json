@@ -1,0 +1,27 @@
+{
+  "key": "PageTypeContentContentArea",
+  "displayName": "PageType ContentContentArea",
+  "description": "PageType ContentContentArea",
+  "baseType": "page",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "ContentContentArea": {
+      "type": "array",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {},
+      "items": {
+        "type": "content",
+        "allowedTypes": [],
+        "restrictedTypes": []
+      }
+    }
+  }
+}

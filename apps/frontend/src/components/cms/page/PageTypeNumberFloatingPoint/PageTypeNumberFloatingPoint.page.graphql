@@ -1,0 +1,3 @@
+fragment PageTypeNumberFloatingPointData on PageTypeNumberFloatingPoint {
+  NumberFloatingPoint
+}

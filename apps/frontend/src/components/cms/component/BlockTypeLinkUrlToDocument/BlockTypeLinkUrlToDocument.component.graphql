@@ -1,0 +1,3 @@
+fragment BlockTypeLinkUrlToDocumentData on BlockTypeLinkUrlToDocument {
+  LinkUrlToDocument { ...LinkData }
+}

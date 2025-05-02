@@ -1,0 +1,25 @@
+{
+  "key": "ExpTypeListNumberInteger",
+  "displayName": "ExpType ListNumberInteger",
+  "description": "ExpType ListNumberInteger",
+  "baseType": "experience",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "ListNumberInteger": {
+      "type": "array",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {},
+      "items": {
+        "type": "integer"
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+fragment BlockTypeListLinkUrlToDocumentData on BlockTypeListLinkUrlToDocument {
+  ListLinkUrlToDocument { __typename }
+}

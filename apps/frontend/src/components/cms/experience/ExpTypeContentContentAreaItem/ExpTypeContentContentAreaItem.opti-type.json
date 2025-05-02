@@ -1,0 +1,24 @@
+{
+  "key": "ExpTypeContentContentAreaItem",
+  "displayName": "ExpType ContentContentAreaItem",
+  "description": "ExpType ContentContentAreaItem",
+  "baseType": "experience",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "ContentContentAreaItem": {
+      "type": "content",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {},
+      "allowedTypes": [],
+      "restrictedTypes": []
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "key": "ExpTypeLinkUrlToDocument",
+  "displayName": "ExpType LinkUrlToDocument",
+  "description": "ExpType LinkUrlToDocument",
+  "baseType": "experience",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "LinkUrlToDocument": {
+      "type": "url",
+      "format": "DocumentUrl",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

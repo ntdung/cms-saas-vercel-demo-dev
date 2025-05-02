@@ -1,0 +1,4 @@
+fragment ExpTypeLinkUrlToPageData on ExpTypeLinkUrlToPage {
+  LinkUrlToPage { ...LinkData }
+  ...ExperienceData
+}

@@ -1,0 +1,22 @@
+{
+  "key": "ExpTypeNumberInteger",
+  "displayName": "ExpType NumberInteger",
+  "description": "ExpType NumberInteger",
+  "baseType": "experience",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "NumberInteger": {
+      "type": "integer",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

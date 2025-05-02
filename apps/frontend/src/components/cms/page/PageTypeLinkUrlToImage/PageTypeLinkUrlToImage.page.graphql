@@ -1,0 +1,3 @@
+fragment PageTypeLinkUrlToImageData on PageTypeLinkUrlToImage {
+  LinkUrlToImage { ...LinkData }
+}

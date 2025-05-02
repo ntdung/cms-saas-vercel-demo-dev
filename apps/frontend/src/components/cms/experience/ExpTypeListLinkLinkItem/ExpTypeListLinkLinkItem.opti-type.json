@@ -1,0 +1,26 @@
+{
+  "key": "ExpTypeListLinkLinkItem",
+  "displayName": "ExpType ListLinkLinkItem",
+  "description": "ExpType ListLinkLinkItem",
+  "baseType": "experience",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "ListLinkLinkItem": {
+      "type": "array",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {},
+      "items": {
+        "type": "component",
+        "contentType": "link"
+      }
+    }
+  }
+}

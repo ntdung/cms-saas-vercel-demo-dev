@@ -1,0 +1,3 @@
+fragment PageTypeContentContentReferenceData on PageTypeContentContentReference {
+  ContentContentReference { ...ReferenceData }
+}

@@ -1,0 +1,3 @@
+fragment BlockTypeContentContentAreaItemData on BlockTypeContentContentAreaItem {
+  ContentContentAreaItem { ...BlockData }
+}

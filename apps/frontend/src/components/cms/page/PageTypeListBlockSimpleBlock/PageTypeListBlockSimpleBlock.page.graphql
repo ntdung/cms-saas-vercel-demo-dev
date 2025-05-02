@@ -1,0 +1,3 @@
+fragment PageTypeListBlockSimpleBlockData on PageTypeListBlockSimpleBlock {
+  ListBlockSimpleBlock { ...SimpleBlockPropertyData }
+}

@@ -1,0 +1,4 @@
+fragment ExpTypeListNumberFloatingPointData on ExpTypeListNumberFloatingPoint {
+  ListNumberFloatingPoint
+  ...ExperienceData
+}

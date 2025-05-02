@@ -1,0 +1,3 @@
+fragment PageTypeLinkLinkCollectionData on PageTypeLinkLinkCollection {
+  LinkLinkCollection { ...LinkItemData }
+}

@@ -1,0 +1,3 @@
+fragment BlockTypeChoiceSelectListData on BlockTypeChoiceSelectList {
+  ChoiceSelectList
+}

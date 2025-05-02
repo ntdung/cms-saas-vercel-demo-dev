@@ -1,0 +1,23 @@
+{
+  "key": "PageTypeLinkUrlToImage",
+  "displayName": "PageType LinkUrlToImage",
+  "description": "PageType LinkUrlToImage",
+  "baseType": "page",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "LinkUrlToImage": {
+      "type": "url",
+      "format": "ImageUrl",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

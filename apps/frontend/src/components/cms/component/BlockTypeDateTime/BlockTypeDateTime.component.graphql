@@ -1,0 +1,3 @@
+fragment BlockTypeDateTimeData on BlockTypeDateTime {
+  DateTime
+}

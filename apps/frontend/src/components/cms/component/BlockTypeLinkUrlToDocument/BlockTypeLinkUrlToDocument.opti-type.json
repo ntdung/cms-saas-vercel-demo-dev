@@ -1,0 +1,23 @@
+{
+  "key": "BlockTypeLinkUrlToDocument",
+  "displayName": "BlockType LinkUrlToDocument",
+  "description": "BlockType LinkUrlToDocument",
+  "baseType": "component",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "LinkUrlToDocument": {
+      "type": "url",
+      "format": "DocumentUrl",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

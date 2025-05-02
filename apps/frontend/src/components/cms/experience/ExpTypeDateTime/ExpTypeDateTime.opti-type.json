@@ -1,0 +1,22 @@
+{
+  "key": "ExpTypeDateTime",
+  "displayName": "ExpType DateTime",
+  "description": "ExpType DateTime",
+  "baseType": "experience",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "DateTime": {
+      "type": "dateTime",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

@@ -1,0 +1,3 @@
+fragment PageTypeTextXHtmlStringData on PageTypeTextXHtmlString {
+  TextXHtmlString { json, html }
+}

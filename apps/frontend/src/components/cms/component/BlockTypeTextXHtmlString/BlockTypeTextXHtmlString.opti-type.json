@@ -1,0 +1,23 @@
+{
+  "key": "BlockTypeTextXHtmlString",
+  "displayName": "BlockType TextXHtmlString",
+  "description": "BlockType TextXHtmlString",
+  "baseType": "component",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "TextXHtmlString": {
+      "type": "string",
+      "format": "html",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

@@ -1,0 +1,4 @@
+fragment ExpTypeListNumberIntegerData on ExpTypeListNumberInteger {
+  ListNumberInteger
+  ...ExperienceData
+}

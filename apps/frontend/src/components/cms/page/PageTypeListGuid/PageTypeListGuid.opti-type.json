@@ -1,0 +1,26 @@
+{
+  "key": "PageTypeListGuid",
+  "displayName": "PageType ListGuid",
+  "description": "PageType ListGuid",
+  "baseType": "page",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "ListGuid": {
+      "type": "array",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {},
+      "items": {
+        "type": "string",
+        "format": "Guid"
+      }
+    }
+  }
+}

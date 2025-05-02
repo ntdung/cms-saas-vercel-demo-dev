@@ -4,6 +4,7 @@ import { type ComponentTypeDictionary } from "@remkoj/optimizely-cms-react";
 import VideoElementComponent from "./VideoElement";
 import TextBlockComponent from "./TextBlock";
 import TestimonialElementComponent from "./TestimonialElement";
+import SimpleBlockComponent from "./SimpleBlock";
 import RichTextElementComponent from "./RichTextElement";
 import QuoteBlockComponent from "./QuoteBlock";
 import ParagraphElementComponent from "./ParagraphElement";
@@ -21,6 +22,39 @@ import ContinueReadingComponentComponent from "./ContinueReadingComponent";
 import ContentRecsElementComponent from "./ContentRecsElement";
 import CarouselBlockComponent from "./CarouselBlock";
 import ButtonBlockComponent from "./ButtonBlock";
+import BlockTypeTextXHtmlStringComponent from "./BlockTypeTextXHtmlString";
+import BlockTypeTextStringComponent from "./BlockTypeTextString";
+import BlockTypeTextLongStringComponent from "./BlockTypeTextLongString";
+import BlockTypeNumberIntegerComponent from "./BlockTypeNumberInteger";
+import BlockTypeNumberFloatingPointComponent from "./BlockTypeNumberFloatingPoint";
+import BlockTypeListTextXHtmlStringComponent from "./BlockTypeListTextXHtmlString";
+import BlockTypeListTextStringComponent from "./BlockTypeListTextString";
+import BlockTypeListTextLongStringComponent from "./BlockTypeListTextLongString";
+import BlockTypeListNumberIntegerComponent from "./BlockTypeListNumberInteger";
+import BlockTypeListNumberFloatingPointComponent from "./BlockTypeListNumberFloatingPoint";
+import BlockTypeListLinkUrlToPageComponent from "./BlockTypeListLinkUrlToPage";
+import BlockTypeListLinkUrlToImageComponent from "./BlockTypeListLinkUrlToImage";
+import BlockTypeListLinkUrlToDocumentComponent from "./BlockTypeListLinkUrlToDocument";
+import BlockTypeListLinkLinkItemComponent from "./BlockTypeListLinkLinkItem";
+import BlockTypeListGuidComponent from "./BlockTypeListGuid";
+import BlockTypeListDateTimeComponent from "./BlockTypeListDateTime";
+import BlockTypeListContentContentReferenceComponent from "./BlockTypeListContentContentReference";
+import BlockTypeListChoiceSelectedNotSelectedComponent from "./BlockTypeListChoiceSelectedNotSelected";
+import BlockTypeListBlockSimpleBlockComponent from "./BlockTypeListBlockSimpleBlock";
+import BlockTypeLinkUrlToPageComponent from "./BlockTypeLinkUrlToPage";
+import BlockTypeLinkUrlToImageComponent from "./BlockTypeLinkUrlToImage";
+import BlockTypeLinkUrlToDocumentComponent from "./BlockTypeLinkUrlToDocument";
+import BlockTypeLinkLinkItemComponent from "./BlockTypeLinkLinkItem";
+import BlockTypeLinkLinkCollectionComponent from "./BlockTypeLinkLinkCollection";
+import BlockTypeGuidComponent from "./BlockTypeGuid";
+import BlockTypeDateTimeComponent from "./BlockTypeDateTime";
+import BlockTypeContentContentReferenceComponent from "./BlockTypeContentContentReference";
+import BlockTypeContentContentAreaItemComponent from "./BlockTypeContentContentAreaItem";
+import BlockTypeContentContentAreaComponent from "./BlockTypeContentContentArea";
+import BlockTypeChoiceSelectListComponent from "./BlockTypeChoiceSelectList";
+import BlockTypeChoiceSelectedNotSelectedComponent from "./BlockTypeChoiceSelectedNotSelected";
+import BlockTypeChoiceDropDownListComponent from "./BlockTypeChoiceDropDownList";
+import BlockTypeBlockSimpleBlockComponent from "./BlockTypeBlockSimpleBlock";
 import ArticleListElementComponent from "./ArticleListElement";
 import ArticleListElementLoader from "./ArticleListElement/loading";
 import ComponentPageFactory from "./Page";
@@ -41,6 +75,10 @@ export const ComponentFactory : ComponentTypeDictionary = [
     { 
         type: "TestimonialElement", 
         component: TestimonialElementComponent 
+    },
+    { 
+        type: "SimpleBlock", 
+        component: SimpleBlockComponent 
     },
     { 
         type: "RichTextElement", 
@@ -109,6 +147,138 @@ export const ComponentFactory : ComponentTypeDictionary = [
     { 
         type: "ButtonBlock", 
         component: ButtonBlockComponent 
+    },
+    { 
+        type: "BlockTypeTextXHtmlString", 
+        component: BlockTypeTextXHtmlStringComponent 
+    },
+    { 
+        type: "BlockTypeTextString", 
+        component: BlockTypeTextStringComponent 
+    },
+    { 
+        type: "BlockTypeTextLongString", 
+        component: BlockTypeTextLongStringComponent 
+    },
+    { 
+        type: "BlockTypeNumberInteger", 
+        component: BlockTypeNumberIntegerComponent 
+    },
+    { 
+        type: "BlockTypeNumberFloatingPoint", 
+        component: BlockTypeNumberFloatingPointComponent 
+    },
+    { 
+        type: "BlockTypeListTextXHtmlString", 
+        component: BlockTypeListTextXHtmlStringComponent 
+    },
+    { 
+        type: "BlockTypeListTextString", 
+        component: BlockTypeListTextStringComponent 
+    },
+    { 
+        type: "BlockTypeListTextLongString", 
+        component: BlockTypeListTextLongStringComponent 
+    },
+    { 
+        type: "BlockTypeListNumberInteger", 
+        component: BlockTypeListNumberIntegerComponent 
+    },
+    { 
+        type: "BlockTypeListNumberFloatingPoint", 
+        component: BlockTypeListNumberFloatingPointComponent 
+    },
+    { 
+        type: "BlockTypeListLinkUrlToPage", 
+        component: BlockTypeListLinkUrlToPageComponent 
+    },
+    { 
+        type: "BlockTypeListLinkUrlToImage", 
+        component: BlockTypeListLinkUrlToImageComponent 
+    },
+    { 
+        type: "BlockTypeListLinkUrlToDocument", 
+        component: BlockTypeListLinkUrlToDocumentComponent 
+    },
+    { 
+        type: "BlockTypeListLinkLinkItem", 
+        component: BlockTypeListLinkLinkItemComponent 
+    },
+    { 
+        type: "BlockTypeListGuid", 
+        component: BlockTypeListGuidComponent 
+    },
+    { 
+        type: "BlockTypeListDateTime", 
+        component: BlockTypeListDateTimeComponent 
+    },
+    { 
+        type: "BlockTypeListContentContentReference", 
+        component: BlockTypeListContentContentReferenceComponent 
+    },
+    { 
+        type: "BlockTypeListChoiceSelectedNotSelected", 
+        component: BlockTypeListChoiceSelectedNotSelectedComponent 
+    },
+    { 
+        type: "BlockTypeListBlockSimpleBlock", 
+        component: BlockTypeListBlockSimpleBlockComponent 
+    },
+    { 
+        type: "BlockTypeLinkUrlToPage", 
+        component: BlockTypeLinkUrlToPageComponent 
+    },
+    { 
+        type: "BlockTypeLinkUrlToImage", 
+        component: BlockTypeLinkUrlToImageComponent 
+    },
+    { 
+        type: "BlockTypeLinkUrlToDocument", 
+        component: BlockTypeLinkUrlToDocumentComponent 
+    },
+    { 
+        type: "BlockTypeLinkLinkItem", 
+        component: BlockTypeLinkLinkItemComponent 
+    },
+    { 
+        type: "BlockTypeLinkLinkCollection", 
+        component: BlockTypeLinkLinkCollectionComponent 
+    },
+    { 
+        type: "BlockTypeGuid", 
+        component: BlockTypeGuidComponent 
+    },
+    { 
+        type: "BlockTypeDateTime", 
+        component: BlockTypeDateTimeComponent 
+    },
+    { 
+        type: "BlockTypeContentContentReference", 
+        component: BlockTypeContentContentReferenceComponent 
+    },
+    { 
+        type: "BlockTypeContentContentAreaItem", 
+        component: BlockTypeContentContentAreaItemComponent 
+    },
+    { 
+        type: "BlockTypeContentContentArea", 
+        component: BlockTypeContentContentAreaComponent 
+    },
+    { 
+        type: "BlockTypeChoiceSelectList", 
+        component: BlockTypeChoiceSelectListComponent 
+    },
+    { 
+        type: "BlockTypeChoiceSelectedNotSelected", 
+        component: BlockTypeChoiceSelectedNotSelectedComponent 
+    },
+    { 
+        type: "BlockTypeChoiceDropDownList", 
+        component: BlockTypeChoiceDropDownListComponent 
+    },
+    { 
+        type: "BlockTypeBlockSimpleBlock", 
+        component: BlockTypeBlockSimpleBlockComponent 
     },
     { 
         type: "ArticleListElement", 

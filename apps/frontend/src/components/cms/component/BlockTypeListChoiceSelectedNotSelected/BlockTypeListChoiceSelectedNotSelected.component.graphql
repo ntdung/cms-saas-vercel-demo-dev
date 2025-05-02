@@ -1,0 +1,3 @@
+fragment BlockTypeListChoiceSelectedNotSelectedData on BlockTypeListChoiceSelectedNotSelected {
+  ListChoiceSelectedNotSelected
+}

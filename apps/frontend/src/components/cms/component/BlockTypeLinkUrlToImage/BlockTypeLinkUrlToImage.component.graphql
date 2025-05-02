@@ -1,0 +1,3 @@
+fragment BlockTypeLinkUrlToImageData on BlockTypeLinkUrlToImage {
+  LinkUrlToImage { ...LinkData }
+}

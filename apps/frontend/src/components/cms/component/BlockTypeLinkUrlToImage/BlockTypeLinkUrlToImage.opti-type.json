@@ -1,0 +1,23 @@
+{
+  "key": "BlockTypeLinkUrlToImage",
+  "displayName": "BlockType LinkUrlToImage",
+  "description": "BlockType LinkUrlToImage",
+  "baseType": "component",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "LinkUrlToImage": {
+      "type": "url",
+      "format": "ImageUrl",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

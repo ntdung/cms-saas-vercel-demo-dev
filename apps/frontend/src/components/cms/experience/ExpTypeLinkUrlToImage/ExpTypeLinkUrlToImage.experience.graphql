@@ -1,0 +1,4 @@
+fragment ExpTypeLinkUrlToImageData on ExpTypeLinkUrlToImage {
+  LinkUrlToImage { ...LinkData }
+  ...ExperienceData
+}

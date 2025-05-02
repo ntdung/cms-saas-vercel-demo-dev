@@ -1,0 +1,4 @@
+fragment ExpTypeTextXHtmlStringData on ExpTypeTextXHtmlString {
+  TextXHtmlString { json, html }
+  ...ExperienceData
+}

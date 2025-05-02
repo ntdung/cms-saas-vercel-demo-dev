@@ -1,0 +1,25 @@
+{
+  "key": "BlockTypeListDateTime",
+  "displayName": "BlockType ListDateTime",
+  "description": "BlockType ListDateTime",
+  "baseType": "component",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "ListDateTime": {
+      "type": "array",
+      "displayName": "",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {},
+      "items": {
+        "type": "dateTime"
+      }
+    }
+  }
+}

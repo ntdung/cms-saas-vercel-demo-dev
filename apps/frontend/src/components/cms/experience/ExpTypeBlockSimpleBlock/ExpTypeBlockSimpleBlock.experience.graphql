@@ -1,0 +1,4 @@
+fragment ExpTypeBlockSimpleBlockData on ExpTypeBlockSimpleBlock {
+  BlockSimpleBlock { ...SimpleBlockPropertyData }
+  ...ExperienceData
+}

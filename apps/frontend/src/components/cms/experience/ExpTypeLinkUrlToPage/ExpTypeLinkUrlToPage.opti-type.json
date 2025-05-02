@@ -1,0 +1,22 @@
+{
+  "key": "ExpTypeLinkUrlToPage",
+  "displayName": "ExpType LinkUrlToPage",
+  "description": "ExpType LinkUrlToPage",
+  "baseType": "experience",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "LinkUrlToPage": {
+      "type": "url",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

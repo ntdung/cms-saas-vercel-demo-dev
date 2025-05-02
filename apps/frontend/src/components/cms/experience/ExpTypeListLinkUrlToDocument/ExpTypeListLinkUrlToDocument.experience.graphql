@@ -1,0 +1,4 @@
+fragment ExpTypeListLinkUrlToDocumentData on ExpTypeListLinkUrlToDocument {
+  ListLinkUrlToDocument { __typename }
+  ...ExperienceData
+}

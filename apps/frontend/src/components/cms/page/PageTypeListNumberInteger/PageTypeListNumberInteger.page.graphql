@@ -1,0 +1,3 @@
+fragment PageTypeListNumberIntegerData on PageTypeListNumberInteger {
+  ListNumberInteger
+}

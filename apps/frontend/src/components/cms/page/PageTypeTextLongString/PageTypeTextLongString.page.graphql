@@ -1,0 +1,3 @@
+fragment PageTypeTextLongStringData on PageTypeTextLongString {
+  TextLongString
+}

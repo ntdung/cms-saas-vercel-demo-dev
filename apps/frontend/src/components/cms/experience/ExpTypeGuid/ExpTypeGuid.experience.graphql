@@ -1,0 +1,3 @@
+fragment ExpTypeGuidData on ExpTypeGuid {
+  ...ExperienceData
+}

@@ -1,0 +1,24 @@
+{
+  "key": "BlockTypeContentContentAreaItem",
+  "displayName": "BlockType ContentContentAreaItem",
+  "description": "BlockType ContentContentAreaItem",
+  "baseType": "component",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "ContentContentAreaItem": {
+      "type": "content",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {},
+      "allowedTypes": [],
+      "restrictedTypes": []
+    }
+  }
+}

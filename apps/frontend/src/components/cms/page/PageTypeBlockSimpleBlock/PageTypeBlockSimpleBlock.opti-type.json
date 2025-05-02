@@ -1,0 +1,23 @@
+{
+  "key": "PageTypeBlockSimpleBlock",
+  "displayName": "PageType BlockSimpleBlock",
+  "description": "PageType BlockSimpleBlock",
+  "baseType": "page",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "BlockSimpleBlock": {
+      "type": "component",
+      "contentType": "SimpleBlock",
+      "displayName": "",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

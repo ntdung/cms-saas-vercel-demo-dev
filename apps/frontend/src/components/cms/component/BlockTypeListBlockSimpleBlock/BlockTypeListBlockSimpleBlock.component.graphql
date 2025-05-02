@@ -1,0 +1,3 @@
+fragment BlockTypeListBlockSimpleBlockData on BlockTypeListBlockSimpleBlock {
+  ListBlockSimpleBlock { ...SimpleBlockPropertyData }
+}

@@ -1,0 +1,3 @@
+fragment PageTypeChoiceSelectListData on PageTypeChoiceSelectList {
+  ChoiceSelectList
+}

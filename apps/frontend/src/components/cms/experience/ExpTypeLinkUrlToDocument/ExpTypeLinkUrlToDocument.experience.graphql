@@ -1,0 +1,4 @@
+fragment ExpTypeLinkUrlToDocumentData on ExpTypeLinkUrlToDocument {
+  LinkUrlToDocument { ...LinkData }
+  ...ExperienceData
+}

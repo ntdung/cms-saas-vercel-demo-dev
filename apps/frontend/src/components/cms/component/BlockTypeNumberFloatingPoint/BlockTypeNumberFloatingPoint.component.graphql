@@ -1,0 +1,3 @@
+fragment BlockTypeNumberFloatingPointData on BlockTypeNumberFloatingPoint {
+  NumberFloatingPoint
+}

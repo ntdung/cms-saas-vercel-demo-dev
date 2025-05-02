@@ -1,0 +1,26 @@
+{
+  "key": "PageTypeListTextXHtmlString",
+  "displayName": "PageType ListTextXHtmlString",
+  "description": "PageType ListTextXHtmlString",
+  "baseType": "page",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "ListTextXHtmlString": {
+      "type": "array",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {},
+      "items": {
+        "type": "string",
+        "format": "html"
+      }
+    }
+  }
+}

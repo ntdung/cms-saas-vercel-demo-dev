@@ -1,0 +1,23 @@
+{
+  "key": "ExpTypeLinkUrlToImage",
+  "displayName": "ExpType LinkUrlToImage",
+  "description": "ExpType LinkUrlToImage",
+  "baseType": "experience",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "LinkUrlToImage": {
+      "type": "url",
+      "format": "ImageUrl",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

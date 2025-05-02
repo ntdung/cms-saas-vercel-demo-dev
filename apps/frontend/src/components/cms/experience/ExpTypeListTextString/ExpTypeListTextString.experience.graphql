@@ -1,0 +1,4 @@
+fragment ExpTypeListTextStringData on ExpTypeListTextString {
+  ListTextString
+  ...ExperienceData
+}

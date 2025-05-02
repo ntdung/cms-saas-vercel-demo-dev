@@ -1,0 +1,22 @@
+{
+  "key": "PageTypeNumberInteger",
+  "displayName": "PageType NumberInteger",
+  "description": "PageType NumberInteger",
+  "baseType": "page",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "NumberInteger": {
+      "type": "integer",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

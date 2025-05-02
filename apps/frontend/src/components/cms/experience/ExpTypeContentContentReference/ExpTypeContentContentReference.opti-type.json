@@ -1,0 +1,24 @@
+{
+  "key": "ExpTypeContentContentReference",
+  "displayName": "ExpType ContentContentReference",
+  "description": "ExpType ContentContentReference",
+  "baseType": "experience",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "ContentContentReference": {
+      "type": "contentReference",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {},
+      "allowedTypes": [],
+      "restrictedTypes": []
+    }
+  }
+}

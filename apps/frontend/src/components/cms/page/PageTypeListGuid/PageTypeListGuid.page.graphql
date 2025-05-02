@@ -1,0 +1,3 @@
+fragment PageTypeListGuidData on PageTypeListGuid {
+  ListGuid
+}

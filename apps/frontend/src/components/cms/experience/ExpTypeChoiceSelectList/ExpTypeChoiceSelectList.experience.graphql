@@ -1,0 +1,4 @@
+fragment ExpTypeChoiceSelectListData on ExpTypeChoiceSelectList {
+  ChoiceSelectList
+  ...ExperienceData
+}

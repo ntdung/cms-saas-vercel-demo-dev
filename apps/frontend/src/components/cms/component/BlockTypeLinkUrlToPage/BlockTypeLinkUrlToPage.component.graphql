@@ -1,0 +1,3 @@
+fragment BlockTypeLinkUrlToPageData on BlockTypeLinkUrlToPage {
+  LinkUrlToPage { ...LinkData }
+}

@@ -1,0 +1,22 @@
+{
+  "key": "ExpTypeNumberFloatingPoint",
+  "displayName": "ExpType NumberFloatingPoint",
+  "description": "ExpType NumberFloatingPoint",
+  "baseType": "experience",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "NumberFloatingPoint": {
+      "type": "float",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

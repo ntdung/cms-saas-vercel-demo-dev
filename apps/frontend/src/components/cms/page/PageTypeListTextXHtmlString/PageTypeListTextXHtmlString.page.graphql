@@ -1,0 +1,4 @@
+fragment PageTypeListTextXHtmlStringData on PageTypeListTextXHtmlString {
+  ListTextXHtmlString{ json, html }
+
+}

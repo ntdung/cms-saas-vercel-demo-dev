@@ -1,0 +1,22 @@
+{
+  "key": "PageTypeLinkUrlToPage",
+  "displayName": "PageType LinkUrlToPage",
+  "description": "PageType LinkUrlToPage",
+  "baseType": "page",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "LinkUrlToPage": {
+      "type": "url",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

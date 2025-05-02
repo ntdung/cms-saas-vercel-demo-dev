@@ -1,0 +1,22 @@
+{
+  "key": "ExpTypeChoiceSelectedNotSelected",
+  "displayName": "ExpType ChoiceSelectedNotSelected",
+  "description": "ExpType ChoiceSelectedNotSelected",
+  "baseType": "experience",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "ChoiceSelectedNotSelected": {
+      "type": "boolean",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

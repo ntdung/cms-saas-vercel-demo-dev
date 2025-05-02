@@ -1,0 +1,4 @@
+fragment ExpTypeChoiceSelectedNotSelectedData on ExpTypeChoiceSelectedNotSelected {
+  ChoiceSelectedNotSelected
+  ...ExperienceData
+}

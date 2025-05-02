@@ -1,0 +1,4 @@
+fragment ExpTypeTextLongStringData on ExpTypeTextLongString {
+  TextLongString
+  ...ExperienceData
+}

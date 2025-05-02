@@ -1,0 +1,3 @@
+fragment BlockTypeListLinkLinkItemData on BlockTypeListLinkLinkItem {
+  ListLinkLinkItem { ...LinkItemData }
+}

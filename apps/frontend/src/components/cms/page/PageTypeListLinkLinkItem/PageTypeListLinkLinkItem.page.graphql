@@ -1,0 +1,3 @@
+fragment PageTypeListLinkLinkItemData on PageTypeListLinkLinkItem {
+  ListLinkLinkItem { ...LinkItemData }
+}

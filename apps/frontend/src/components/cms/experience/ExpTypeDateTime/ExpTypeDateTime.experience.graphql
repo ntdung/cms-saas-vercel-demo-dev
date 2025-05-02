@@ -1,0 +1,4 @@
+fragment ExpTypeDateTimeData on ExpTypeDateTime {
+  DateTime
+  ...ExperienceData
+}

@@ -1,0 +1,22 @@
+{
+  "key": "ExpTypeTextLongString",
+  "displayName": "ExpType TextLongString",
+  "description": "ExpType TextLongString",
+  "baseType": "experience",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "TextLongString": {
+      "type": "string",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

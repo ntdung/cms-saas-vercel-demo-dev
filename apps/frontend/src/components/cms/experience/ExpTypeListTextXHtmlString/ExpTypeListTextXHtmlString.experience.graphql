@@ -1,0 +1,7 @@
+fragment ExpTypeListTextXHtmlStringData on ExpTypeListTextXHtmlString {
+  ListTextXHtmlString {
+    json
+    html
+  }
+  ...ExperienceData
+}

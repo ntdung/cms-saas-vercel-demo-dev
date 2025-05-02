@@ -1,0 +1,4 @@
+fragment ExpTypeListContentContentReferenceData on ExpTypeListContentContentReference {
+  ListContentContentReference { ...ReferenceData }
+  ...ExperienceData
+}

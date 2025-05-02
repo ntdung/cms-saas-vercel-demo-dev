@@ -1,0 +1,3 @@
+fragment PageTypeListTextStringData on PageTypeListTextString {
+  ListTextString
+}

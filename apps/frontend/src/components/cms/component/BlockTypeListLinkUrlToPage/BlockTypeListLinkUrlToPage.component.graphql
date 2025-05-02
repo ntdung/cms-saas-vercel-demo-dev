@@ -1,0 +1,3 @@
+fragment BlockTypeListLinkUrlToPageData on BlockTypeListLinkUrlToPage {
+  ListLinkUrlToPage { __typename }
+}

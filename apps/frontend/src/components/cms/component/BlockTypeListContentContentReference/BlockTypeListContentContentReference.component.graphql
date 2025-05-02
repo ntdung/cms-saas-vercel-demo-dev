@@ -1,0 +1,3 @@
+fragment BlockTypeListContentContentReferenceData on BlockTypeListContentContentReference {
+  ListContentContentReference { ...ReferenceData }
+}

@@ -1,0 +1,4 @@
+fragment ExpTypeChoiceDropDownListData on ExpTypeChoiceDropDownList {
+  ChoiceDropDownList
+  ...ExperienceData
+}

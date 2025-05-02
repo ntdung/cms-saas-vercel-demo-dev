@@ -1,0 +1,22 @@
+{
+  "key": "PageTypeNumberFloatingPoint",
+  "displayName": "PageType NumberFloatingPoint",
+  "description": "PageType NumberFloatingPoint",
+  "baseType": "page",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "NumberFloatingPoint": {
+      "type": "float",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

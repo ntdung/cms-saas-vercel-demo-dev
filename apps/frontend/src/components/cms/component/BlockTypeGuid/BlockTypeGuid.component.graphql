@@ -1,0 +1,3 @@
+fragment BlockTypeGuidData on BlockTypeGuid {
+  empty: _metadata { key }
+}

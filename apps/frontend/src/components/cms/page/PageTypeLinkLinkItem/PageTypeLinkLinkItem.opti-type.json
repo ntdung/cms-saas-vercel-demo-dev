@@ -1,0 +1,26 @@
+{
+  "key": "PageTypeLinkLinkItem",
+  "displayName": "PageType LinkLinkItem",
+  "description": "PageType LinkLinkItem",
+  "baseType": "page",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "LinkLinkItem": {
+      "type": "array",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {},
+      "items": {
+        "type": "component",
+        "contentType": "link"
+      }
+    }
+  }
+}

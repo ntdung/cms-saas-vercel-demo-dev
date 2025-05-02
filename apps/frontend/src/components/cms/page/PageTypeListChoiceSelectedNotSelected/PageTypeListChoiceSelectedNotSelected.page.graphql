@@ -1,0 +1,3 @@
+fragment PageTypeListChoiceSelectedNotSelectedData on PageTypeListChoiceSelectedNotSelected {
+  ListChoiceSelectedNotSelected
+}

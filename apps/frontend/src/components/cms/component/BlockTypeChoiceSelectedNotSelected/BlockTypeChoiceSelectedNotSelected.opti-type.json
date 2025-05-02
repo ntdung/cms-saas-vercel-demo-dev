@@ -1,0 +1,22 @@
+{
+  "key": "BlockTypeChoiceSelectedNotSelected",
+  "displayName": "BlockType ChoiceSelectedNotSelected",
+  "description": "BlockType ChoiceSelectedNotSelected",
+  "baseType": "component",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "ChoiceSelectedNotSelected": {
+      "type": "boolean",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

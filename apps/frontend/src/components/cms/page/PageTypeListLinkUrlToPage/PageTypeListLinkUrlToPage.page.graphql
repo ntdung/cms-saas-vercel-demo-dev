@@ -1,0 +1,3 @@
+fragment PageTypeListLinkUrlToPageData on PageTypeListLinkUrlToPage {
+  ListLinkUrlToPage { __typename }
+}

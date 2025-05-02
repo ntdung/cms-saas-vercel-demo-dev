@@ -1,0 +1,6 @@
+fragment BlockTypeContentContentAreaData on BlockTypeContentContentArea {
+  ContentContentArea {
+    ...IContentListItem
+    ...BlockData
+  }
+}

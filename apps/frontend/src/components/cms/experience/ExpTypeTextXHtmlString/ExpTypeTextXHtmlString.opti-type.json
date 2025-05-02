@@ -1,0 +1,23 @@
+{
+  "key": "ExpTypeTextXHtmlString",
+  "displayName": "ExpType TextXHtmlString",
+  "description": "ExpType TextXHtmlString",
+  "baseType": "experience",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "TextXHtmlString": {
+      "type": "string",
+      "format": "html",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "key": "PageTypeTextLongString",
+  "displayName": "PageType TextLongString",
+  "description": "PageType TextLongString",
+  "baseType": "page",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "TextLongString": {
+      "type": "string",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {}
+    }
+  }
+}

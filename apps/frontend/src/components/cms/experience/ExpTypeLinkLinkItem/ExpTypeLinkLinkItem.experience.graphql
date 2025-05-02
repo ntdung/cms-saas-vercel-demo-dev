@@ -1,0 +1,4 @@
+fragment ExpTypeLinkLinkItemData on ExpTypeLinkLinkItem {
+  LinkLinkItem { ...LinkItemData }
+  ...ExperienceData
+}

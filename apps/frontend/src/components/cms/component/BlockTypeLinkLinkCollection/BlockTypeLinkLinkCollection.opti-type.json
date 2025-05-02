@@ -1,0 +1,27 @@
+{
+  "key": "BlockTypeLinkLinkCollection",
+  "displayName": "BlockType LinkLinkCollection",
+  "description": "BlockType LinkLinkCollection",
+  "baseType": "component",
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "properties": {
+    "LinkLinkCollection": {
+      "type": "array",
+      "format": "LinkCollection",
+      "displayName": "",
+      "description": "",
+      "localized": true,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "editorSettings": {},
+      "items": {
+        "type": "component",
+        "contentType": "link"
+      }
+    }
+  }
+}
