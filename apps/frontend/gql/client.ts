@@ -151,9 +151,7 @@ export const BlockTypeDateTimeDataFragmentDoc = gql`
     `;
 export const BlockTypeGuidDataFragmentDoc = gql`
     fragment BlockTypeGuidData on BlockTypeGuid {
-  empty: _metadata {
-    key
-  }
+  Guid
 }
     `;
 export const LinkItemDataFragmentDoc = gql`

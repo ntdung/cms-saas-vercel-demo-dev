@@ -25,7 +25,7 @@ type Documents = {
     "fragment BlockTypeContentContentAreaItemData on BlockTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...BlockData\n  }\n}": typeof types.BlockTypeContentContentAreaItemDataFragmentDoc,
     "fragment BlockTypeContentContentReferenceData on BlockTypeContentContentReference {\n  ContentContentReference {\n    ...ReferenceData\n  }\n}": typeof types.BlockTypeContentContentReferenceDataFragmentDoc,
     "fragment BlockTypeDateTimeData on BlockTypeDateTime {\n  DateTime\n}": typeof types.BlockTypeDateTimeDataFragmentDoc,
-    "fragment BlockTypeGuidData on BlockTypeGuid {\n  empty: _metadata {\n    key\n  }\n}": typeof types.BlockTypeGuidDataFragmentDoc,
+    "fragment BlockTypeGuidData on BlockTypeGuid {\n  Guid\n}": typeof types.BlockTypeGuidDataFragmentDoc,
     "fragment BlockTypeLinkLinkCollectionData on BlockTypeLinkLinkCollection {\n  LinkLinkCollection {\n    ...LinkItemData\n  }\n}": typeof types.BlockTypeLinkLinkCollectionDataFragmentDoc,
     "fragment BlockTypeLinkLinkItemData on BlockTypeLinkLinkItem {\n  LinkLinkItem {\n    ...LinkItemData\n  }\n}": typeof types.BlockTypeLinkLinkItemDataFragmentDoc,
     "fragment BlockTypeLinkUrlToDocumentData on BlockTypeLinkUrlToDocument {\n  LinkUrlToDocument {\n    ...LinkData\n  }\n}": typeof types.BlockTypeLinkUrlToDocumentDataFragmentDoc,
@@ -177,7 +177,7 @@ const documents: Documents = {
     "fragment BlockTypeContentContentAreaItemData on BlockTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...BlockData\n  }\n}": types.BlockTypeContentContentAreaItemDataFragmentDoc,
     "fragment BlockTypeContentContentReferenceData on BlockTypeContentContentReference {\n  ContentContentReference {\n    ...ReferenceData\n  }\n}": types.BlockTypeContentContentReferenceDataFragmentDoc,
     "fragment BlockTypeDateTimeData on BlockTypeDateTime {\n  DateTime\n}": types.BlockTypeDateTimeDataFragmentDoc,
-    "fragment BlockTypeGuidData on BlockTypeGuid {\n  empty: _metadata {\n    key\n  }\n}": types.BlockTypeGuidDataFragmentDoc,
+    "fragment BlockTypeGuidData on BlockTypeGuid {\n  Guid\n}": types.BlockTypeGuidDataFragmentDoc,
     "fragment BlockTypeLinkLinkCollectionData on BlockTypeLinkLinkCollection {\n  LinkLinkCollection {\n    ...LinkItemData\n  }\n}": types.BlockTypeLinkLinkCollectionDataFragmentDoc,
     "fragment BlockTypeLinkLinkItemData on BlockTypeLinkLinkItem {\n  LinkLinkItem {\n    ...LinkItemData\n  }\n}": types.BlockTypeLinkLinkItemDataFragmentDoc,
     "fragment BlockTypeLinkUrlToDocumentData on BlockTypeLinkUrlToDocument {\n  LinkUrlToDocument {\n    ...LinkData\n  }\n}": types.BlockTypeLinkUrlToDocumentDataFragmentDoc,
@@ -379,7 +379,7 @@ export function gql(source: "fragment BlockTypeDateTimeData on BlockTypeDateTime
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function gql(source: "fragment BlockTypeGuidData on BlockTypeGuid {\n  empty: _metadata {\n    key\n  }\n}"): (typeof documents)["fragment BlockTypeGuidData on BlockTypeGuid {\n  empty: _metadata {\n    key\n  }\n}"];
+export function gql(source: "fragment BlockTypeGuidData on BlockTypeGuid {\n  Guid\n}"): (typeof documents)["fragment BlockTypeGuidData on BlockTypeGuid {\n  Guid\n}"];
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
