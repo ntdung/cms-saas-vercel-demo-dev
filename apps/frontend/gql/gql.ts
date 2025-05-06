@@ -129,7 +129,7 @@ type Documents = {
     "fragment PageTypeContentContentAreaItemData on PageTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...BlockData\n  }\n}": typeof types.PageTypeContentContentAreaItemDataFragmentDoc,
     "fragment PageTypeContentContentReferenceData on PageTypeContentContentReference {\n  ContentContentReference {\n    ...ReferenceData\n  }\n}": typeof types.PageTypeContentContentReferenceDataFragmentDoc,
     "fragment PageTypeDateTimeData on PageTypeDateTime {\n  DateTime\n}": typeof types.PageTypeDateTimeDataFragmentDoc,
-    "fragment PageTypeGuidData on PageTypeGuid {\n  empty: _metadata {\n    key\n  }\n}": typeof types.PageTypeGuidDataFragmentDoc,
+    "fragment PageTypeGuidData on PageTypeGuid {\n  Guid\n}": typeof types.PageTypeGuidDataFragmentDoc,
     "fragment PageTypeLinkLinkCollectionData on PageTypeLinkLinkCollection {\n  LinkLinkCollection {\n    ...LinkItemData\n  }\n}": typeof types.PageTypeLinkLinkCollectionDataFragmentDoc,
     "fragment PageTypeLinkLinkItemData on PageTypeLinkLinkItem {\n  LinkLinkItem {\n    ...LinkItemData\n  }\n}": typeof types.PageTypeLinkLinkItemDataFragmentDoc,
     "fragment PageTypeLinkUrlToDocumentData on PageTypeLinkUrlToDocument {\n  LinkUrlToDocument {\n    ...LinkData\n  }\n}": typeof types.PageTypeLinkUrlToDocumentDataFragmentDoc,
@@ -281,7 +281,7 @@ const documents: Documents = {
     "fragment PageTypeContentContentAreaItemData on PageTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...BlockData\n  }\n}": types.PageTypeContentContentAreaItemDataFragmentDoc,
     "fragment PageTypeContentContentReferenceData on PageTypeContentContentReference {\n  ContentContentReference {\n    ...ReferenceData\n  }\n}": types.PageTypeContentContentReferenceDataFragmentDoc,
     "fragment PageTypeDateTimeData on PageTypeDateTime {\n  DateTime\n}": types.PageTypeDateTimeDataFragmentDoc,
-    "fragment PageTypeGuidData on PageTypeGuid {\n  empty: _metadata {\n    key\n  }\n}": types.PageTypeGuidDataFragmentDoc,
+    "fragment PageTypeGuidData on PageTypeGuid {\n  Guid\n}": types.PageTypeGuidDataFragmentDoc,
     "fragment PageTypeLinkLinkCollectionData on PageTypeLinkLinkCollection {\n  LinkLinkCollection {\n    ...LinkItemData\n  }\n}": types.PageTypeLinkLinkCollectionDataFragmentDoc,
     "fragment PageTypeLinkLinkItemData on PageTypeLinkLinkItem {\n  LinkLinkItem {\n    ...LinkItemData\n  }\n}": types.PageTypeLinkLinkItemDataFragmentDoc,
     "fragment PageTypeLinkUrlToDocumentData on PageTypeLinkUrlToDocument {\n  LinkUrlToDocument {\n    ...LinkData\n  }\n}": types.PageTypeLinkUrlToDocumentDataFragmentDoc,
@@ -795,7 +795,7 @@ export function gql(source: "fragment PageTypeDateTimeData on PageTypeDateTime {
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function gql(source: "fragment PageTypeGuidData on PageTypeGuid {\n  empty: _metadata {\n    key\n  }\n}"): (typeof documents)["fragment PageTypeGuidData on PageTypeGuid {\n  empty: _metadata {\n    key\n  }\n}"];
+export function gql(source: "fragment PageTypeGuidData on PageTypeGuid {\n  Guid\n}"): (typeof documents)["fragment PageTypeGuidData on PageTypeGuid {\n  Guid\n}"];
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */

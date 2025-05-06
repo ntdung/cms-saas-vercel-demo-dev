@@ -1631,9 +1631,7 @@ export const PageTypeDateTimeDataFragmentDoc = gql`
     `;
 export const PageTypeGuidDataFragmentDoc = gql`
     fragment PageTypeGuidData on PageTypeGuid {
-  empty: _metadata {
-    key
-  }
+  Guid
 }
     `;
 export const PageTypeLinkLinkCollectionDataFragmentDoc = gql`
