@@ -684,7 +684,10 @@ export const CarouselBlockDataFragmentDoc = gql`
 export const BlockTypeContentContentAreaItemDataFragmentDoc = gql`
     fragment BlockTypeContentContentAreaItemData on BlockTypeContentContentAreaItem {
   ContentContentAreaItem {
+    ...IContentListItem
     ...BlockData
+    ...ImageMediaComponentData
+    ...VideoMediaComponentData
     ...ArticleListElementData
     ...BlockTypeBlockSimpleBlockData
     ...BlockTypeChoiceDropDownListData
@@ -1496,7 +1499,10 @@ export const PageTypeChoiceSelectedNotSelectedDataFragmentDoc = gql`
 export const PageTypeContentContentAreaDataFragmentDoc = gql`
     fragment PageTypeContentContentAreaData on PageTypeContentContentArea {
   ContentContentArea {
+    ...IContentListItem
     ...BlockData
+    ...ImageMediaComponentData
+    ...VideoMediaComponentData
     ...ArticleListElementData
     ...BlockTypeBlockSimpleBlockData
     ...BlockTypeChoiceDropDownListData
@@ -1558,7 +1564,10 @@ export const PageTypeContentContentAreaDataFragmentDoc = gql`
 export const PageTypeContentContentAreaItemDataFragmentDoc = gql`
     fragment PageTypeContentContentAreaItemData on PageTypeContentContentAreaItem {
   ContentContentAreaItem {
+    ...IContentListItem
     ...BlockData
+    ...ImageMediaComponentData
+    ...VideoMediaComponentData
     ...ArticleListElementData
     ...BlockTypeBlockSimpleBlockData
     ...BlockTypeChoiceDropDownListData

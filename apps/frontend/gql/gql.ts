@@ -22,7 +22,7 @@ type Documents = {
     "fragment BlockTypeChoiceSelectListData on BlockTypeChoiceSelectList {\n  ChoiceSelectList\n}": typeof types.BlockTypeChoiceSelectListDataFragmentDoc,
     "fragment BlockTypeChoiceSelectedNotSelectedData on BlockTypeChoiceSelectedNotSelected {\n  ChoiceSelectedNotSelected\n}": typeof types.BlockTypeChoiceSelectedNotSelectedDataFragmentDoc,
     "fragment BlockTypeContentContentAreaData on BlockTypeContentContentArea {\n  ContentContentArea {\n    ...IContentListItem\n    ...BlockData\n  }\n}": typeof types.BlockTypeContentContentAreaDataFragmentDoc,
-    "fragment BlockTypeContentContentAreaItemData on BlockTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...BlockData\n  }\n}": typeof types.BlockTypeContentContentAreaItemDataFragmentDoc,
+    "fragment BlockTypeContentContentAreaItemData on BlockTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...IContentListItem\n    ...BlockData\n  }\n}": typeof types.BlockTypeContentContentAreaItemDataFragmentDoc,
     "fragment BlockTypeContentContentReferenceData on BlockTypeContentContentReference {\n  ContentContentReference {\n    ...ReferenceData\n  }\n}": typeof types.BlockTypeContentContentReferenceDataFragmentDoc,
     "fragment BlockTypeDateTimeData on BlockTypeDateTime {\n  DateTime\n}": typeof types.BlockTypeDateTimeDataFragmentDoc,
     "fragment BlockTypeGuidData on BlockTypeGuid {\n  Guid\n}": typeof types.BlockTypeGuidDataFragmentDoc,
@@ -125,8 +125,8 @@ type Documents = {
     "fragment PageTypeChoiceDropDownListData on PageTypeChoiceDropDownList {\n  ChoiceDropDownList\n}": typeof types.PageTypeChoiceDropDownListDataFragmentDoc,
     "fragment PageTypeChoiceSelectListData on PageTypeChoiceSelectList {\n  ChoiceSelectList\n}": typeof types.PageTypeChoiceSelectListDataFragmentDoc,
     "fragment PageTypeChoiceSelectedNotSelectedData on PageTypeChoiceSelectedNotSelected {\n  ChoiceSelectedNotSelected\n}": typeof types.PageTypeChoiceSelectedNotSelectedDataFragmentDoc,
-    "fragment PageTypeContentContentAreaData on PageTypeContentContentArea {\n  ContentContentArea {\n    ...BlockData\n  }\n}": typeof types.PageTypeContentContentAreaDataFragmentDoc,
-    "fragment PageTypeContentContentAreaItemData on PageTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...BlockData\n  }\n}": typeof types.PageTypeContentContentAreaItemDataFragmentDoc,
+    "fragment PageTypeContentContentAreaData on PageTypeContentContentArea {\n  ContentContentArea {\n    ...IContentListItem\n    ...BlockData\n  }\n}": typeof types.PageTypeContentContentAreaDataFragmentDoc,
+    "fragment PageTypeContentContentAreaItemData on PageTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...IContentListItem\n    ...BlockData\n  }\n}": typeof types.PageTypeContentContentAreaItemDataFragmentDoc,
     "fragment PageTypeContentContentReferenceData on PageTypeContentContentReference {\n  ContentContentReference {\n    ...ReferenceData\n  }\n}": typeof types.PageTypeContentContentReferenceDataFragmentDoc,
     "fragment PageTypeDateTimeData on PageTypeDateTime {\n  DateTime\n}": typeof types.PageTypeDateTimeDataFragmentDoc,
     "fragment PageTypeGuidData on PageTypeGuid {\n  Guid\n}": typeof types.PageTypeGuidDataFragmentDoc,
@@ -174,7 +174,7 @@ const documents: Documents = {
     "fragment BlockTypeChoiceSelectListData on BlockTypeChoiceSelectList {\n  ChoiceSelectList\n}": types.BlockTypeChoiceSelectListDataFragmentDoc,
     "fragment BlockTypeChoiceSelectedNotSelectedData on BlockTypeChoiceSelectedNotSelected {\n  ChoiceSelectedNotSelected\n}": types.BlockTypeChoiceSelectedNotSelectedDataFragmentDoc,
     "fragment BlockTypeContentContentAreaData on BlockTypeContentContentArea {\n  ContentContentArea {\n    ...IContentListItem\n    ...BlockData\n  }\n}": types.BlockTypeContentContentAreaDataFragmentDoc,
-    "fragment BlockTypeContentContentAreaItemData on BlockTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...BlockData\n  }\n}": types.BlockTypeContentContentAreaItemDataFragmentDoc,
+    "fragment BlockTypeContentContentAreaItemData on BlockTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...IContentListItem\n    ...BlockData\n  }\n}": types.BlockTypeContentContentAreaItemDataFragmentDoc,
     "fragment BlockTypeContentContentReferenceData on BlockTypeContentContentReference {\n  ContentContentReference {\n    ...ReferenceData\n  }\n}": types.BlockTypeContentContentReferenceDataFragmentDoc,
     "fragment BlockTypeDateTimeData on BlockTypeDateTime {\n  DateTime\n}": types.BlockTypeDateTimeDataFragmentDoc,
     "fragment BlockTypeGuidData on BlockTypeGuid {\n  Guid\n}": types.BlockTypeGuidDataFragmentDoc,
@@ -277,8 +277,8 @@ const documents: Documents = {
     "fragment PageTypeChoiceDropDownListData on PageTypeChoiceDropDownList {\n  ChoiceDropDownList\n}": types.PageTypeChoiceDropDownListDataFragmentDoc,
     "fragment PageTypeChoiceSelectListData on PageTypeChoiceSelectList {\n  ChoiceSelectList\n}": types.PageTypeChoiceSelectListDataFragmentDoc,
     "fragment PageTypeChoiceSelectedNotSelectedData on PageTypeChoiceSelectedNotSelected {\n  ChoiceSelectedNotSelected\n}": types.PageTypeChoiceSelectedNotSelectedDataFragmentDoc,
-    "fragment PageTypeContentContentAreaData on PageTypeContentContentArea {\n  ContentContentArea {\n    ...BlockData\n  }\n}": types.PageTypeContentContentAreaDataFragmentDoc,
-    "fragment PageTypeContentContentAreaItemData on PageTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...BlockData\n  }\n}": types.PageTypeContentContentAreaItemDataFragmentDoc,
+    "fragment PageTypeContentContentAreaData on PageTypeContentContentArea {\n  ContentContentArea {\n    ...IContentListItem\n    ...BlockData\n  }\n}": types.PageTypeContentContentAreaDataFragmentDoc,
+    "fragment PageTypeContentContentAreaItemData on PageTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...IContentListItem\n    ...BlockData\n  }\n}": types.PageTypeContentContentAreaItemDataFragmentDoc,
     "fragment PageTypeContentContentReferenceData on PageTypeContentContentReference {\n  ContentContentReference {\n    ...ReferenceData\n  }\n}": types.PageTypeContentContentReferenceDataFragmentDoc,
     "fragment PageTypeDateTimeData on PageTypeDateTime {\n  DateTime\n}": types.PageTypeDateTimeDataFragmentDoc,
     "fragment PageTypeGuidData on PageTypeGuid {\n  Guid\n}": types.PageTypeGuidDataFragmentDoc,
@@ -367,7 +367,7 @@ export function gql(source: "fragment BlockTypeContentContentAreaData on BlockTy
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function gql(source: "fragment BlockTypeContentContentAreaItemData on BlockTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...BlockData\n  }\n}"): (typeof documents)["fragment BlockTypeContentContentAreaItemData on BlockTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...BlockData\n  }\n}"];
+export function gql(source: "fragment BlockTypeContentContentAreaItemData on BlockTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...IContentListItem\n    ...BlockData\n  }\n}"): (typeof documents)["fragment BlockTypeContentContentAreaItemData on BlockTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...IContentListItem\n    ...BlockData\n  }\n}"];
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
@@ -779,11 +779,11 @@ export function gql(source: "fragment PageTypeChoiceSelectedNotSelectedData on P
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function gql(source: "fragment PageTypeContentContentAreaData on PageTypeContentContentArea {\n  ContentContentArea {\n    ...BlockData\n  }\n}"): (typeof documents)["fragment PageTypeContentContentAreaData on PageTypeContentContentArea {\n  ContentContentArea {\n    ...BlockData\n  }\n}"];
+export function gql(source: "fragment PageTypeContentContentAreaData on PageTypeContentContentArea {\n  ContentContentArea {\n    ...IContentListItem\n    ...BlockData\n  }\n}"): (typeof documents)["fragment PageTypeContentContentAreaData on PageTypeContentContentArea {\n  ContentContentArea {\n    ...IContentListItem\n    ...BlockData\n  }\n}"];
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function gql(source: "fragment PageTypeContentContentAreaItemData on PageTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...BlockData\n  }\n}"): (typeof documents)["fragment PageTypeContentContentAreaItemData on PageTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...BlockData\n  }\n}"];
+export function gql(source: "fragment PageTypeContentContentAreaItemData on PageTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...IContentListItem\n    ...BlockData\n  }\n}"): (typeof documents)["fragment PageTypeContentContentAreaItemData on PageTypeContentContentAreaItem {\n  ContentContentAreaItem {\n    ...IContentListItem\n    ...BlockData\n  }\n}"];
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
