@@ -1,5 +1,8 @@
 fragment PageTypeContentContentAreaItemData on PageTypeContentContentAreaItem {
-  ContentContentAreaItem{ ...BlockData }
+  ContentContentAreaItem{ 
+    ...IContentListItem
+    ...BlockData
 
+ }
 
 }

@@ -1,3 +1,6 @@
 fragment BlockTypeContentContentAreaItemData on BlockTypeContentContentAreaItem {
-  ContentContentAreaItem { ...BlockData }
+  ContentContentAreaItem { 
+    ...IContentListItem
+    ...BlockData
+ }
 }
